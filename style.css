@@ -231,11 +231,12 @@ border-radius: 50%;
   .devpic img{
     margin-left: 55%;
     width: 170px;
+    clear:both;
    }
-   .devinfo{
+/*    .devinfo{
     margin-top: 92%;
     margin-left: -55%;
-   }
+   } */
   
 }
 /* 
