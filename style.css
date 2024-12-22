@@ -227,16 +227,22 @@ border-radius: 50%;
 
  } 
 
- @media (max-width: 685px) {
+@media (max-width: 803px) {
+  .info-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
   .devpic img{
-    margin-left: 55%;
-    width: 170px;
-    clear:both;
+      /* width: 80vw; */
+      padding: 20px;
    }
-/*    .devinfo{
-    margin-top: 92%;
-    margin-left: -55%;
-   } */
+   .devinfo{
+    width: 80vw;
+    word-wrap: break-word;
+    overflow: hidden;
+    
+   }
   
 }
 /* 
