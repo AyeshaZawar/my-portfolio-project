@@ -58,7 +58,7 @@ z-index: 1000;
 .open{
 background-color: darkcyan;
 border-radius: 50%;
-
+position: fixed;
 }
 .back-video{
   position: fixed;
